@@ -151,7 +151,7 @@ h1{
 .btn{
     background-color: #ED2D26;
     color: aliceblue;
-    padding: 15px;
+    padding: 20px;
     transition: all 1s;
 
 }
@@ -241,7 +241,7 @@ h1{
     grid-template-areas: "nav nav nav nav"
                          "header header header header "
                          "main aside section section2 " 
-                         " section3 section4 section5 section6"
+                         "section3 section4 section5 section6"
                          "footer footer footer footer ";
                          
 }
@@ -273,6 +273,7 @@ h1{
     width: 200px;
 
 }
+
 
 .profesor2{
     grid-area: aside;
@@ -320,3 +321,4 @@ h1{
     margin: 50px;
 
 }
+
