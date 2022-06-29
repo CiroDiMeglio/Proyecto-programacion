@@ -136,6 +136,7 @@ h1{
     text-align: center;
     color: azure;
     font-family: Oswald;
+    
 
 
 }
@@ -151,10 +152,12 @@ h1{
     background-color: #ED2D26;
     color: aliceblue;
     padding: 15px;
-    position: relative;
-    left: 520px;
-    top: 20px;
+    transition: all 1s;
 
+}
+
+.btn:hover{
+    transform: scale(1.2);
 }
 
 .fondoindex{
@@ -163,6 +166,9 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fondoindex2{
@@ -171,6 +177,9 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fondoindex3{
     background-image: url(../img/FondoMaestros.jpg);
@@ -178,7 +187,9 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #p{
@@ -291,18 +302,21 @@ h1{
 }
 
 
-.InfoProfe{
-    width: 200px;
-    display: flex;
-    padding: 10px;
-
-}
-
-.InfoProfe p{
-    text-align: center;
-}
-
 .tarjetaProfe{
-   display: flex;
-    width: 400px;
+    display: flex;
+
+}
+
+.tarjetaProfe p{
+    text-align: center;
+    background-color: #1F7AF0;
+    width: 25%;
+    padding: 10px;
+    margin: 50px;
+}
+
+.tarjetaProfe img{
+    width: 25%;
+    margin: 50px;
+
 }
