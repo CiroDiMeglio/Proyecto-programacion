@@ -8,7 +8,7 @@
 .NavBar{
    height: 70px;
    width: 100%;
-    background-color:rgb(243, 252, 252) ;
+    background-color:rgb(4, 5, 5) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +23,13 @@
 .NavBar ul li{
     display: inline-block;
     padding: 0px 0px 30x;
-    color: 0;
+    color: rgb(255, 255, 255) ;
     flex-direction: inherit;
     font-family:IBM Plex Serif ;
 }
 
 h1{
-    color: darkred;
+    color: rgb(255, 255, 255);
     text-align: left;
     font: size 48px;
     padding: 20px 0px 0px 50px
@@ -45,7 +45,7 @@ h1{
 }
 
 .TituloCartelera{
-    background-color: #b91e1e ;
+    background-color: #ffffff ;
     text-align: center;
 }
 .SubtituloImg{
@@ -94,7 +94,7 @@ h1{
 
 
 .SubtituloIn{
-    background-image: url(../img/TeatroFondo.jpg);
+    background-image: url(../img/FondoIndex1.0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
