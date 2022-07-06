@@ -29,7 +29,7 @@
 }
 
 h1{
-    color: rgb(255, 255, 255);
+    
     text-align: left;
     font: size 48px;
     padding: 20px 0px 0px 50px;
@@ -168,10 +168,10 @@ h1{
 }
 
 .fondoindex2{
-    background-image: url(../img/Escenografia.Index3.jpg);
+    background-image: url(../img/Fondo.Inscripcion.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: ;
+    
     height: 500px;
     display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ h1{
 .fondoindex3{
     background-image: url(../img/Escenografia.Index4.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: ;
     background-size: cover;
     height: 500px;
     display: flex;
@@ -194,7 +194,7 @@ h1{
     text-align: center;
 }
 .MainContacto{
-    background-image: url(../img/Fondo.Inscripcion.jpg);
+    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,7 +206,7 @@ h1{
 
     display: flex;
     font-size: 20px;
-    left: 100px;
+
 }
 .bloques{
     width: 450px;
