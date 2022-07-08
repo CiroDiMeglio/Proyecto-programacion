@@ -5,65 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teatro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/Css/style.css">
 </head>
 <body>
-   <nav class="NavBar">  <h1 class="h1">CompañiaDeTeatro</h1>
-       
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/Escuela.html">Escuela</a></li>
-        <li><a href="../pages/Teatro.html">Teatro</a></li>
-        <li> <a href="../pages/Profesores.html">Profesores</a></li>
-        <li> <a href="../pages/Ubicacion.html">Ubicacion</a></li>
-    </ul>
+  <nav class=" NavBar"> <h1 class="text-warning h1">CompañiaDeTeatro</h1>
+    <ul class="nav justify-content-center">
+          <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white" href="../pages/Escuela.html">Escuela</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link  text-white" href="../pages/Teatro.html">Teatro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link  text-white" href="../pages/Profesores.html">Profesores</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link  text-white" href="../pages/Ubicacion.html">Ubicacion</a>
+          </li>
+      </ul>
+ </nav>
 
-    </nav>
+    <head>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/perdida-mente.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/me-duele-una-mujer.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/petroleo-_.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </head>
   
     <main>
    
-         <div class="Cartelerah1">
-            <h1 class="TituloCartelera">Cartelera</h1>
-        </div>
-    
-    
-        <div class="Contenedor">
-       
-            <div class="Tarjeta">
-             <img class="Tarjeta__img" src="../assets/img/cartelera 2.jpg" alt="">
-             <a href="http://www.plateanet.com/home" target="_blank" rel="noopener noreferrer"><button class="Tarjeta__btn">Comprar</button></a>
-            </div>
-
-            <br>
-        
-            <div class="Tarjeta">
-                <img class="Tarjeta__img" src="../assets/img/cartelera 1.jpg" alt="">
-                <a href="http://www.plateanet.com/home" target="_blank" rel="noopener noreferrer"><button class="Tarjeta__btn">Comprar</button></a>
-            </div>
-
-            <div class="Tarjeta">
-                <img class="Tarjeta__img" src="../assets/img/cartelera 3.jpg" alt="">
-                <a href="http://www.plateanet.com/obra/22778?obra=UNA-SEMANA-NADA-MAS_&paso=inicio" target="_blank" rel="noopener noreferrer"><button class="Tarjeta__btn">Comprar</button></a>
-            </div>
-
-            <div class="Tarjeta">
-                <img class="Tarjeta__img" src="../assets/img/cartelera 4.jpg" alt="">
-                <a href="http://www.plateanet.com/obra/21104?obra=LOS-BONOBOS&paso=inicio" target="_blank" rel="noopener noreferrer"><button class="Tarjeta__btn" a>Comprar</button> </a>
-                
-            </div>
-
-        </div>
-   
-        <div class="Contenedorvid">
-            <div class="Tarjeta">
-              <iframe class="Tarjeta__vid" width="560" height="315" src="https://www.youtube.com/embed/xBnzAy609h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             </div>
-        </div>
-   
     </main>
-<aside></aside>
+    <aside></aside>
+    <footer>
+        <div class="row text-center footer">
+            <div class="col-4"><img class="img-fluid" width="50px" src="../assets/img/LogoWpp.jpg" alt=""></div>
+            <div class="col-4"><img class="img-fluid"  width="50px" src="../assets/img/LogoInstagram.jpg" alt=""></div>
+            <div class="col-4"><img class="img-fluid"  width="50px" src="../assets/img/LogoTwitter.jpg" alt=""></div>
+            <h5  class="col-12">©2022 CiroDiMeglio, todos los derechos reservados</h5>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <h5>©2022 CiroDiMeglio, todos los derechos reservados</h5>
-</footer>
+
 </html>
