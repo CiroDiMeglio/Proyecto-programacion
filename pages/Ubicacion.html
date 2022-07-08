@@ -10,38 +10,36 @@
 </head>
 <body>
     <nav class=" NavBar"> <h1 class="text-warning h1">CompañiaDeTeatro</h1>
-        <ul class="nav justify-content-center">
-              <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link text-white" href="../pages/Escuela.html">Escuela</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link  text-white" href="../pages/Teatro.html">Teatro</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link  text-white" href="../pages/Profesores.html">Profesores</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link  text-white" href="../pages/Ubicacion.html">Ubicacion</a>
-              </li>
-          </ul>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
      </nav>
   
     <main>
         <div class="row maps">
-            <h2 class="SubtituloImg">Sede 1</h2>
-
-            <section8 class="ubicacion1">
-                <div class="col-6 col-md-"><a href="https://www.google.com.ar/maps/@-34.6608437,-58.4287612,15z" target="_blank"> <img class="img-fluid" src="../assets/img/ubicacion.jpg" alt=""></a></div>
-            </section8>
-        
-            <h2 class="SubtituloImg">Sede 2</h2>
            
-            <section9 class="ubicacion2">
+
+            <div class="map">
+                <h2 class="SubtituloImg">Sede 1</h2> 
+                <div class="col-6 col-md-"><a href="https://www.google.com.ar/maps/@-34.6608437,-58.4287612,15z" target="_blank"> <img class="img-fluid" src="../assets/img/ubicacion.jpg" alt=""></a></div>
+            </div>
+        
+            
+           
+            <div class="map">
+                <h2 class="SubtituloImg">Sede 2</h2>
                 <div class="col-6"><a href="https://www.google.com.ar/maps/@-34.6608437,-58.4287612,15z"><img src="../assets/img/ubicacion 2.jpg" alt=""></a></div>
-            </section9>
+            </div>
         </div>
     </main>
 
