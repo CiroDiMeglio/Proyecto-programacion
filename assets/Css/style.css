@@ -170,7 +170,7 @@ h1{
 .fondoindex2{
     background-image: url(../img/Fondo.Inscripcion.jpg);
     background-attachment: fixed;
-    background-repeat: ;
+    background-repeat:2 ;
     
     height: 500px;
     display: flex;
@@ -180,7 +180,7 @@ h1{
 .fondoindex3{
     background-image: url(../img/Escenografia.Index4.jpg);
     background-attachment: fixed;
-    background-repeat: ;
+    background-repeat:no-repeat;
     background-size: cover;
     height: 500px;
     display: flex;
