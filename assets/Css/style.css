@@ -145,15 +145,9 @@ h1{
 
 
 .btn{
-<<<<<<< HEAD
-    background-color: #ED2D26;
-    color: aliceblue;
-    padding: 20px;
-=======
     background-color: #edc226;
     color: rgb(0, 0, 0);
     padding: 15px;
->>>>>>> General
     transition: all 1s;
 
 }
@@ -311,10 +305,7 @@ h1{
 
 }
 
-<<<<<<< HEAD
-=======
 .footer{
     background-color: black; 
     text-align: center;
 }
->>>>>>> General
