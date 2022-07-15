@@ -1,311 +1,317 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-}
-.NavBar{
-   height: 70px;
-   width: 100%;
-    background-color:rgb(4, 5, 5) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.NavBar ul{
-    margin: 10px;
-    list-style: none;
-    padding: 10px
-    
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.NavBar ul li{
-    display: inline-block;
-    padding: 0px 0px 30x;
-    color: rgb(255, 255, 255) ;
-    flex-direction: inherit;
-    font-family:IBM Plex Serif ;
+.NavBar {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(4, 5, 5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font: size 48px;
-    padding: 20px 0px 0px 50px;
-    
-}
-.FondoTitulo{
-    background-color: rgb(14, 11, 7);
+.NavBar ul {
+  margin: 10px;
+  list-style: none;
+  padding: 10px;
 }
 
-
-.TituloCartelera{
-    background-color: #ffffff ;
-    text-align: center;
-}
-.SubtituloImg{
-    margin-top: 100px
-    
+.NavBar ul li {
+  display: inline-block;
+  padding: 0px 0px 30x;
+  color: rgb(255, 255, 255);
+  flex-direction: inherit;
+  font-family: IBM Plex Serif;
 }
 
-.Contenedor{
-    display: flex;
-
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font: size 48px;
+  padding: 20px 0px 0px 50px;
 }
+
+.FondoTitulo {
+  background-color: rgb(14, 11, 7);
+}
+
+.TituloCartelera {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.SubtituloImg {
+  margin-top: 100px;
+}
+
+.Contenedor {
+  display: flex;
+}
+
 .Tarjeta {
-    margin: 10px;
-    width:px;
-    padding-bottom: 10px;
-    text-align: center;
-
+  margin: 10px;
+  width: px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-.Tarjeta__img{
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
+.Tarjeta__img {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
 }
 
-.Tarjeta__btn{
-    padding: 5px;
+.Tarjeta__btn {
+  padding: 5px;
 }
 
-
-
-.Tarjeta__vid{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+.Tarjeta__vid {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.Contenedor{
-    display: grid;
-    grid-template-columns: auto;
-
+.Contenedor {
+  display: grid;
+  grid-template-columns: auto;
 }
 
-
-
-.SubtituloIn{
-    background-image: url(../img/Escenoagrafia.index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
+.SubtituloIn {
+  background-image: url(../img/Escenoagrafia.index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
 }
 
-.caja{
-    width: 100px;
-    height: 100px;
-   background-color: #F29B72;
-   display: flex;
-}
-   .cajas{
-    background-color: #F29B72;
-    margin: 10px;
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #F29B72;
+  display: flex;
 }
 
-.SubtituloIn__h2{
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-   font-family: Oswald;
-   padding-top: 210px;
-   color: azure;
-}
-.caja{
-    height: 100px;
-    width: 100px;
-    background-color: #1F7AF0;
+.cajas {
+  background-color: #F29B72;
+  margin: 10px;
 }
 
-.SubtituloIn__p{
-    color: azure;
-    text-align: center;
-}
-.h3{
-    font-size: x-large;
-    padding-top: 100px;
-    text-align: center;
-    color: azure;
-    font-family: Oswald;
-    
-
-
-}
-.p{
-    color: azure;
-    text-align: center;
-    padding-top: 50px;
-
+.SubtituloIn__h2 {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  font-family: Oswald;
+  padding-top: 210px;
+  color: azure;
 }
 
-
-.btn{
-    background-color: #edc226;
-    color: rgb(0, 0, 0);
-    padding: 15px;
-    transition: all 1s;
-
+.caja {
+  height: 100px;
+  width: 100px;
+  background-color: #1F7AF0;
 }
 
-.btn:hover{
-    transform: scale(1.2);
+.SubtituloIn__p {
+  color: azure;
+  text-align: center;
 }
 
-.fondoindex{
-    background-image: url(../img/Escenaografia.Index2.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.h3 {
+  font-size: x-large;
+  padding-top: 100px;
+  text-align: center;
+  color: azure;
+  font-family: Oswald;
 }
 
-.fondoindex2{
-    background-image: url(../img/Escenografia.Index3.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fondoindex3{
-    background-image: url(../img/Escenografia.Index4.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.p {
+  color: azure;
+  text-align: center;
+  padding-top: 50px;
 }
 
-#p{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-}
-.MainContacto{
-    background-image: url(../img/Fondo.Inscripcion.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+.btn {
+  background-color: #edc226;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  transition: all 1s;
 }
 
-.Formulario{
-
-    display: flex;
-    font-size: 20px;
-    left: 100px;
-}
-.bloques{
-    width: 450px;
-    margin: auto;
-    background-color: #EDC435;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 65px;
-    border-radius: 15px;
-   
-}
-.bloque{
-    padding: 5px;
-    margin: 10px;
-    border-radius: 50px;
-}
-.margen{
-    width: 100%;
-    height: 300px;
-    background-color: beige;
+.btn:hover {
+  transform: scale(1.2);
 }
 
-.padre{
-    background-color: black;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-areas: "nav nav nav nav"
-                         "header header header header "
-                         "main aside section section2 " 
-                         "section3 section4 section5 section6"
-                         "footer footer footer footer ";
-                         
+.fondoindex {
+  background-image: url(../img/Escenaografia.Index2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.NavBar{
-    grid-area: nav;
+.fondoindex2 {
+  background-image: url(../img/Escenografia.Index3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.encabezado{
-    grid-area: header;
-    align-content: center;
-    text-align: center;
-   background-color: black;
-}
-.profesor{
-    grid-area: main;
+.fondoindex3 {
+  background-image: url(../img/Escenografia.Index4.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
 
+.MainContacto {
+  background-image: url(../img/Fondo.Inscripcion.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.profesor2{
-    grid-area: aside;
+.Formulario {
+  display: flex;
+  font-size: 20px;
+  left: 100px;
 }
-.profesor3{
-    grid-area: section;
+
+.bloques {
+  width: 450px;
+  margin: auto;
+  background-color: #EDC435;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 65px;
+  border-radius: 15px;
 }
-.profesor4{
-    grid-area: section2;
+
+.bloque {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50px;
 }
-.profesor5{
-    grid-area: section3;
+
+.margen {
+  width: 100%;
+  height: 300px;
+  background-color: beige;
 }
-.profesor6{
-    grid-area: section4;
+
+.padre {
+  background-color: black;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "nav nav nav nav" "header header header header " "main aside section section2 " "section3 section4 section5 section6" "footer footer footer footer ";
 }
-.profesor7{
-    grid-area: section5;
+
+.NavBar {
+  grid-area: nav;
 }
-.profesor8{
-    grid-area: section6;
+
+.encabezado {
+  grid-area: header;
+  align-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+.profesor {
+  grid-area: main;
+}
+
+.profesor2 {
+  grid-area: aside;
+}
+
+.profesor3 {
+  grid-area: section;
+}
+
+.profesor4 {
+  grid-area: section2;
+}
+
+.profesor5 {
+  grid-area: section3;
+}
+
+.profesor6 {
+  grid-area: section4;
+}
+
+.profesor7 {
+  grid-area: section5;
+}
+
+.profesor8 {
+  grid-area: section6;
 }
 
 .footer {
-    grid-area: footer;
-
+  grid-area: footer;
 }
 
-
-.tarjetaProfe{
-    display: flex;
-
+.tarjetaProfe {
+  display: flex;
 }
 
-.tarjetaProfe p{
-    text-align: center;
-    background-color: #1F7AF0;
-    width: 25%;
-    padding: 10px;
-    margin: 50px;
+.tarjetaProfe p {
+  text-align: center;
+  background-color: #1F7AF0;
+  width: 25%;
+  padding: 10px;
+  margin: 50px;
 }
 
-.tarjetaProfe img{
-    width: 25%;
-    margin: 50px;
-
+.tarjetaProfe img {
+  width: 25%;
+  margin: 50px;
 }
 
-.footer{
-    background-color: black; 
-    text-align: center;
+.footer {
+  background-color: black;
+  text-align: center;
 }
+
+.maps {
+  flex-flow: column wrap;
+  background-color: black;
+}
+.maps .map {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 5px solid #edc226;
+  height: 100%;
+  align-items: center;
+  margin: 20px;
+}
+.maps .map .maph2 {
+  color: #edc226;
+}/*# sourceMappingURL=style.css.map */
