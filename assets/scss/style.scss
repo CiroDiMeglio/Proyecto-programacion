@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import "footer";
+@import "nav";
+@import "profesores";
 *{
     margin: 0;
     padding: 0;
@@ -9,30 +12,11 @@
 
 $colorPrimario: black;
 $colorPrimario2:#edc226;
+$colorprimario3: #ffff;
 
 
-.NavBar{
-   height: 70px;
-   width: 100%;
-    background-color:rgb(4, 5, 5) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.NavBar ul{
-    margin: 10px;
-    list-style: none;
-    padding: 10px
-    
-}
 
-.NavBar ul li{
-    display: inline-block;
-    padding: 0px 0px 30x;
-    color: rgb(255, 255, 255) ;
-    flex-direction: inherit;
-    font-family:IBM Plex Serif ;
-}
+
 
 h1{
     color: rgb(255, 255, 255);
@@ -311,10 +295,7 @@ h1{
 
 }
 
-.footer{
-    background-color: black; 
-    text-align: center;
-}
+
 
 .maps{
         flex-flow: column wrap;
@@ -343,9 +324,5 @@ h1{
         
           
 
-}
-
-.navbar{
-    background-color: $colorPrimario;
 }
 

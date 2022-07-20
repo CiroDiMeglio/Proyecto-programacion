@@ -1,0 +1,23 @@
+
+
+ .navbar{
+    font-size: 20px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+   
+    .ul{
+        margin: 10px;
+        list-style: none;
+        padding: 10px;
+        
+        .li{
+            display: inline-block;
+            color: #FFFF;
+            flex-direction: inherit;
+            font-family: IBM Plex Serif ;
+            
+        }
+    }
+ }
