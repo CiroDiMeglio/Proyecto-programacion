@@ -3,13 +3,13 @@ $colorPrimario2:#edc226;
 
 
 .footer{
-    background-color: black; 
+    background-color: rgb(9, 7, 43); 
     text-align: center;
 }
 
 .pieDePagina{
     width: 100%;
-    background-color: black;
+    background-color: rgb(13, 17, 57);
 }
 
     .pieDePagina .grupo-1{
@@ -42,13 +42,14 @@ $colorPrimario2:#edc226;
     color: #ffff;
     margin-bottom: 10px;
 }
-.pieDePagina .grupo-1 .redSocial{
+.pieDePagina .grupo-1 .redSocial i{
     display:inline-block;
     text-decoration: none;
     width: 45px ;
     height: 45px;
     line-height: 45px;
     color: #fff;
+    margin: 10px;
     margin-right: 10px;
     background-color: #0d2033;
     text-align: center;
